@@ -4,7 +4,7 @@ Mise en place de switch stacking
 ![image](https://user-images.githubusercontent.com/83721477/170940145-06d2dc47-bb2d-4707-9e1d-ea9c73182052.png) 
 
 ## Qu’est ce que la mise en pile ?
-L’idée consiste à raccorder plusieurs switches ensemble pour former une unité logique unique: virtuellement, tout se passe comme s’il y avait un seul « gros » switch. Donc, il n’y a qu’une seule adresse IP affectée à la pile pour administrer et superviser l’ensemble. Lorsque plusieurs commutateurs sont mis en pile, ils deviennent un seul nouveau système…
+L’idée consiste à raccorder plusieurs switches ensemble pour former une unité logique unique: virtuellement, tout se passe comme s’il y avait un seul « gros » switch.<br> Donc, il n’y a qu’une seule adresse IP affectée à la pile pour administrer et superviser l’ensemble. Lorsque plusieurs commutateurs sont mis en pile, ils deviennent un seul nouveau système…
 
 Cela présente l’avantage d’être efficace (et financièrement pertinent) puisqu’on peut utiliser la pile pour augmenter la capacité en termes de nombres de ports uniquement lorsqu’on en a besoin. La technologie Cisco permet de regrouper en pile jusqu’à 9 commutateurs.
 
