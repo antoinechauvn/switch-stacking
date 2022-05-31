@@ -1,7 +1,7 @@
 # switch-stacking
 Mise en place de switch stacking
 
-![image](https://user-images.githubusercontent.com/83721477/170940145-06d2dc47-bb2d-4707-9e1d-ea9c73182052.png) 
+![image](https://user-images.githubusercontent.com/83721477/171123852-54ca0956-2b26-4449-bf6c-cfed03e33fe7.png)
 
 ## Qu’est ce que la mise en pile ?
 L’idée consiste à raccorder plusieurs switches ensemble pour former une unité logique unique: virtuellement, tout se passe comme s’il y avait un seul « gros » switch.<br> Donc, il n’y a qu’une seule adresse IP affectée à la pile pour administrer et superviser l’ensemble. Lorsque plusieurs commutateurs sont mis en pile, ils deviennent un seul nouveau système…
@@ -16,6 +16,19 @@ Pour afficher le numéro d'un swith dans la pile, il faut presser le bouton mode
 
 
 ![image](https://user-images.githubusercontent.com/83721477/170940684-e04d918f-9893-4a68-9d1f-ea11c9fc81c0.png)
+
+## Différents types de topologies de stack
+### Topologie Chain
+
+Celle-ci est la moins coûteuse, car dans cette topologie chaque commutateur est connecté à son voisin, de cette manière :
+
+![image](https://user-images.githubusercontent.com/83721477/171124429-b6c22e32-b1fe-461e-bc89-f375f62307c6.png)
+
+### Topologie Ring
+
+Identitique à la topologie Chain, sauf qu’ici nous connectons simplement le premier membre de la stack avec le dernier. De cette manière, une redondance accrue est mise en place :
+
+![image](https://user-images.githubusercontent.com/83721477/171124554-b81208e9-c465-40c8-8609-a4b74ce119b6.png)
 
 ## Principe de fonctionnement
 ### Notion de commutateur maître ou actif
