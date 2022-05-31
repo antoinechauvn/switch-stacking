@@ -10,6 +10,11 @@ Cela présente l’avantage d’être efficace (et financièrement pertinent) pu
 
 Cela est possible grâce au raccordement spécifique (les connecteurs sont sur la face arrière des commutateurs) qui crée une topologie en anneau entre les commutateurs: le trafic peut donc être véhiculé entre les commutateurs par deux chemins distincts. Cet anneau apporte donc une fiabilité à la pile.
 
+Pour afficher le numéro d'un swith dans la pile, il faut presser le bouton mode pour selectionner l'item stack, le numéro du port qui clignote correspond au numéro du switch.
+
+![image](https://user-images.githubusercontent.com/83721477/171122595-85e042b6-8529-40f0-961e-8cb0105acadc.png)
+
+
 ![image](https://user-images.githubusercontent.com/83721477/170940684-e04d918f-9893-4a68-9d1f-ea11c9fc81c0.png)
 
 ## Principe de fonctionnement
