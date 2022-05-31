@@ -41,3 +41,22 @@ La commande suivante renumérote le switch numéro 3 en switch numéro 2. Il fau
 ```
 sw-2960x(config)#switch 3 renumber 2
 ```
+
+### Changer la priorité d'un switch dans le stack
+Le switch qui a la priorité la plus haute devient le master. Le niveau de priorité va de 1 à 15. Le niveau le plus haut étant prioritaire.
+Commande pour modifier le niveau d'un switch puis vérification:
+```
+sw-2960x(config)#switch 2 priority 15
+Changing the Switch Priority of Switch Number 2 to 15
+Do you want to continue?[confirm]
+
+sw-2960x#sh switch
+Switch/Stack Mac Address : 0024.d96d.e800
+H/W Current
+Switch# Role Mac Address Priority Version State
+----------------------------------------------------------
+*1 Master 0024.d96d.e800 1 0 Ready
+2 Member 0024.5e23.a290 15 0 Ready
+3 Member 0024.6256.0300 1 0 Ready
+4 Member 0024.2b25.4520 1 0 Ready
+```
