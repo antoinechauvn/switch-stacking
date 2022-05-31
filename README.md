@@ -29,3 +29,15 @@ En environnement Stackwise-480, donc notamment pour les commutateurs Cisco Catal
 * Il est possible d’avoir un contrôle déterministe du commutateur Maitre par configuration du paramètre « Priorité pour être maître » (Switch Priority).  La priorité la plus haute (valeur configurable entre 1 et 15 – 1 étant la valeur par défaut) sera choisie pour déterminer le commutateur Maitre.
 
 ![image](https://user-images.githubusercontent.com/83721477/170941173-c8d383d1-3967-494c-9952-36e9738b5660.png)
+
+### Redémarrer un switch d'un stack?
+La commande suivante redémarre le switch numéro 4:
+```
+sw-2960x#reload slot 4
+```
+
+### Renuméroter le switch d'un stack?
+La commande suivante renumérote le switch numéro 3 en switch numéro 2. Il faut ensuite redémarrer le switch.
+```
+sw-2960x(config)#switch 3 renumber 2
+```
