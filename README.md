@@ -1,5 +1,5 @@
 # switch-stacking
-Mise en place de switch stacking
+Mise en place de switch stacking (Stack-Wise)
 
 ![image](https://user-images.githubusercontent.com/83721477/171123852-54ca0956-2b26-4449-bf6c-cfed03e33fe7.png)
 
